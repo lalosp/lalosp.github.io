@@ -20,7 +20,6 @@ header {
 }
 
 .about-title {
-	background-color: lightsalmon;
 	width: 50%;
 	height: 100vh;
 	display: flex;
@@ -69,7 +68,6 @@ footer {
 	background-color: bisque;
 }
 
-/* old code */
 .name {
 	font-family: 'Roboto', sans-serif;
 	margin-bottom: 2px;
