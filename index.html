@@ -60,13 +60,13 @@
 
 			<div class="skill-wrapper">
 				<div class="first-set animate__animated animate__pulse">
-					<img src="icons/icons8-html-5.svg" alt="html" title="HTML 5" loading="lazy" class="icon icon-card" />
-					<img src="icons/icons8-css3.svg" alt="css" title="CSS 3" loading="lazy" class="icon icon-card" />
-					<img src="icons/icons8-javascript.svg" alt="javascript" title="Javascript" loading="lazy" class="icon icon-card" />
+					<a href="https://es.wikipedia.org/wiki/HTML" target="_blank"><img src="icons/icons8-html-5.svg" alt="html" title="HTML 5" loading="lazy" class="icon icon-card" /></a>
+					<a href="https://es.wikipedia.org/wiki/Hoja_de_estilos_en_cascada" target="_blank"><img src="icons/icons8-css3.svg" alt="css" title="CSS 3" loading="lazy" class="icon icon-card" /></a>
+					<a href="https://es.wikipedia.org/wiki/JavaScript" target="_blank"><img src="icons/icons8-javascript.svg" alt="javascript" title="Javascript" loading="lazy" class="icon icon-card" /></a>
 				</div>
 
 				<div class="second-set animate__animated animate__pulse">
-					<img src="icons/icons8-git.svg" alt="git" title="Git" loading="lazy" class="icon icon-card" />
+					<a href="https://es.wikipedia.org/wiki/Git" target="_blank"><img src="icons/icons8-git.svg" alt="git" title="Git" loading="lazy" class="icon icon-card" /></a>
 				</div>
 			</div>
 		</section>
@@ -98,13 +98,62 @@
 		</section>
 
 		<!-- Contact section -->
-		
+		<section class="contact" id="contact">
+			<h2>Contactame</h2>
+
+			<div class="contact-form-container">
+				<div class="contact-form">
+					<form action="https://formspree.io/f/xqknkndr" method="POST">
+						<div class="form-control">
+							<label for="name">Nombre</label>
+							<input type="text" id="name" name="sender-name" placeholder="Introduzca su nombre" class="input-field" required />
+						</div>
+
+						<div class="form-control">
+							<label for="email">Correo</label>
+							<input type="email" id="email" name="sender-email" placeholder="Introduzca su correo" class="input-field" required />
+						</div>
+
+						<div class="form-control">
+							<label for="message">Mensaje</label>
+							<textarea id="message" cols="60" rows="10" placeholder="Introduzca su mensaje" name="message" class="input-field" required></textarea>
+						</div>
+
+						<input type="submit" value="Mandar" id="submit-btn" class="submit-btn" />
+					</form>
+				</div>
+			</div>
+		</section>
 
 		<!-- Social acounts - Fixed to the right -->
+		<div class="socials">
+			<a href="https://twitter.com/lalospx" target="_blank">
+				<img src="icons/icons8-twitter-circled.gif" alt="Twitter" loading="lazy" class="socicon" />
+			</a>
+
+			<a href="https://www.instagram.com/lalo.spx/" target="_blank">
+				<img src="icons/icons8-instagram.gif" alt="Instagram" loading="lazy" class="socicon" />
+			</a>
+
+			<a href="https://www.linkedin.com/in/lalosp/" target="_blank">
+				<img src="icons/icons8-linkedin-circled.gif" alt="Linkedin" loading="lazy" class="socicon" />
+			</a>
+
+			<a href="https://github.com/lalosp" target="_blank">
+				<img src="icons/icons8-github.gif" alt="Github" loading="lazy" class="socicon" />
+			</a>
+		</div>
 
 		<!-- Scroll to top -->
+		<i class="scroll-up" id="scroll-up">
+			<img src="icons/icons8-upward-arrow.gif" class="socicon up-arrow" alt="scroll-up" />
+		</i>
 
 		<!-- Footer section -->
+		<footer>
+			<p class="copy">&copy; 2021 - Todos los derechos reservados</p>
+			<p class="copy">Construido con &#x2661; por <a href="https://twitter.com/lalospx" target="_blank">Eduardo Sandoval (lalospx)</a></p>
+		</footer>
 
 		<!-- Website scripts -->
 		<script src="js/main.js"></script>
