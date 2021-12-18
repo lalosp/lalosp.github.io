@@ -4,9 +4,10 @@
 :root {
 	/* Color scheme */
 	--nav-color: #333333;
-	--bg-color: #d15b3b;
+	--bg-color: #c45a3f;
 	--primary-color: rgb(228, 226, 240);
-	--secondary-color: #d36242;
+	--link-color: #c45a3f;
+	--secondary-color: #f1eef0;
 	--primary-shadow: #8b8eaf;
 	--secondary-shadow: #45525a;
 
@@ -37,11 +38,11 @@ ul {
 
 a {
 	text-decoration: none;
-	color: var(--primary-color);
+	color: var(--link-color);
 }
 
 a:hover {
-	color: var(--secondary-color);
+	color: var(--nav-color);
 }
 
 body {
@@ -117,8 +118,6 @@ nav ul li {
 .bio {
 	width: 50%;
 	padding: 0.625rem;
-	border-radius: 6px;
-	box-shadow: 0px 2px 15px 2px var(--primary-shadow);
 }
 
 .bio h1 {
@@ -174,7 +173,7 @@ nav ul li {
 }
 
 .projects {
-	background-color: var(--bg-color);
+	background-color: var(--secondary-color);
 	padding: 32px 0;
 	margin-top: 2rem;
 }
@@ -200,5 +199,25 @@ nav ul li {
 }
 
 .over-bg-text {
-	color: rgb(238, 230, 230);
+	color: var(--secondary-color);
+}
+
+.project-container p {
+	padding: 0.4rem;
+}
+
+.project-title {
+	margin-bottom: var(--bottom-margin);
+}
+
+.project-details {
+	margin-bottom: var(--bottom-margin);
+}
+
+.project-card {
+	background-color: #fff;
+	border-radius: 11px;
+	box-shadow: 0 3px 10px var(--primary-shadow);
+	padding: 20px;
+	margin: 10px;
 }
